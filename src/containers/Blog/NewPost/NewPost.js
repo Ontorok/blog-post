@@ -29,7 +29,7 @@ class NewPost extends Component {
     render() {
         return (
             <div className="NewPost">
-                <h1>Add a Post</h1>
+                <h1 style={{ color: "skyblue" }}>Add a Post</h1>
                 <label>Title</label>
                 <input type="text" value={this.state.title} onChange={(event) => this.setState({ title: event.target.value })} />
                 <label>Content</label>
