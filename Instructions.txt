@@ -1,0 +1,7 @@
+1.  You can get access to the history object’s properties and the closest <Route>'s match via the withRouter higher-order component. 
+    withRouter will pass updated match, location, and history props to the wrapped component whenever it renders.
+2.  To style link, Use <NavLink></NavLink> (react-router-dom) instead of <Link></Link>
+3.  <Switch></Switch> helps to render one route at a time.
+4.  When using <Switch></Switch> route order maintain in mandatory.
+5.  history.push => keep track in the stuck so that after ridirecting user can use back button.
+    history.replce => do not keep the track so than user can not use the back button
